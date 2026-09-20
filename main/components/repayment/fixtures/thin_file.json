@@ -1,0 +1,31 @@
+{
+  "borrower_id": "B-THIN",
+  "evaluation_date": "2026-04-15",
+  "informal_loans": [
+    {
+      "loan_id": "L-THIN",
+      "lender_id": "FRIEND-02",
+      "issue_date": "2026-02-01",
+      "principal_amount": 20000,
+      "installment_amount": null,
+      "installment_frequency": null,
+      "number_of_installments": null,
+      "first_due_date": null,
+      "declared_status": "ACTIVE",
+      "relationship_type": "FRIEND"
+    }
+  ],
+  "repayment_claims": [
+    {
+      "repayment_id": "R-CLAIM-1",
+      "loan_id": "L-THIN",
+      "date": "2026-03-15",
+      "amount": 4000,
+      "transaction_id": null,
+      "source": "SELF_DECLARED",
+      "verified": false,
+      "confidence": 0.2
+    }
+  ],
+  "transactions": []
+}

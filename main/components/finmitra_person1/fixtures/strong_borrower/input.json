@@ -1,0 +1,84 @@
+{
+  "borrower_id": "BORR-KIRANA-001",
+  "business_name": "Sharma Kirana & General Store",
+  "sources": [
+    {
+      "source_id": "BANK-HDFC-01",
+      "source_type": "BANK_STATEMENT",
+      "metadata": {
+        "account_type": "CURRENT",
+        "bank_name": "HDFC Bank",
+        "branch": "Indore Main Branch"
+      },
+      "records": [
+        {"transaction_id": "BNK-001", "date": "2026-01-05", "amount": 25000.0, "direction": "DEBIT", "narration": "NEFT/SUPP101/Hindustan Unilever Distributor", "counterparty": "Hindustan Unilever Distributor", "mode": "BANK_TRANSFER", "status": "SUCCESS", "reference": "INV-HUL-101"},
+        {"transaction_id": "BNK-002", "date": "2026-01-10", "amount": 18500.0, "direction": "CREDIT", "narration": "POS/SETTLE/BATCH-JAN10/MERCH4410", "counterparty": "PineLabs POS Settlement", "mode": "POS", "status": "SUCCESS", "reference": "POS-BATCH-0110"},
+        {"transaction_id": "BNK-003", "date": "2026-01-15", "amount": 34000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/QR-MERCH-8832/Paytm Payments", "counterparty": "Paytm Merchant QR", "mode": "UPI", "status": "SUCCESS", "reference": "UPI-SETTLE-0115"},
+        {"transaction_id": "BNK-004", "date": "2026-01-20", "amount": 15000.0, "direction": "DEBIT", "narration": "NEFT/ITC-DISTRIB/ITC Wholesale Foods", "counterparty": "ITC Wholesale Foods", "mode": "BANK_TRANSFER", "status": "SUCCESS", "reference": "INV-ITC-202"},
+        {"transaction_id": "BNK-005", "date": "2026-01-28", "amount": 12000.0, "direction": "DEBIT", "narration": "IMPS/RENT-JAN/Shop Landlord Verma", "counterparty": "Shop Rent Verma", "mode": "BANK_TRANSFER", "status": "SUCCESS"},
+        {"transaction_id": "BNK-006", "date": "2026-02-05", "amount": 28000.0, "direction": "DEBIT", "narration": "NEFT/SUPP101/Hindustan Unilever Distributor", "counterparty": "Hindustan Unilever Distributor", "mode": "BANK_TRANSFER", "status": "SUCCESS", "reference": "INV-HUL-102"},
+        {"transaction_id": "BNK-007", "date": "2026-02-12", "amount": 21000.0, "direction": "CREDIT", "narration": "POS/SETTLE/BATCH-FEB12/MERCH4410", "counterparty": "PineLabs POS Settlement", "mode": "POS", "status": "SUCCESS", "reference": "POS-BATCH-0212"},
+        {"transaction_id": "BNK-008", "date": "2026-02-18", "amount": 42000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/QR-MERCH-8832/Paytm Payments", "counterparty": "Paytm Merchant QR", "mode": "UPI", "status": "SUCCESS", "reference": "UPI-SETTLE-0218"},
+        {"transaction_id": "BNK-009", "date": "2026-02-25", "amount": 18000.0, "direction": "DEBIT", "narration": "NEFT/PARLE-DISTRIB/Parle Products", "counterparty": "Parle Wholesale Agency", "mode": "BANK_TRANSFER", "status": "SUCCESS", "reference": "INV-PAR-301"},
+        {"transaction_id": "BNK-010", "date": "2026-03-05", "amount": 31000.0, "direction": "DEBIT", "narration": "NEFT/SUPP101/Hindustan Unilever Distributor", "counterparty": "Hindustan Unilever Distributor", "mode": "BANK_TRANSFER", "status": "SUCCESS", "reference": "INV-HUL-103"},
+        {"transaction_id": "BNK-011", "date": "2026-03-15", "amount": 23500.0, "direction": "CREDIT", "narration": "POS/SETTLE/BATCH-MAR15/MERCH4410", "counterparty": "PineLabs POS Settlement", "mode": "POS", "status": "SUCCESS", "reference": "POS-BATCH-0315"},
+        {"transaction_id": "BNK-012", "date": "2026-03-22", "amount": 48000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/QR-MERCH-8832/Paytm Payments", "counterparty": "Paytm Merchant QR", "mode": "UPI", "status": "SUCCESS", "reference": "UPI-SETTLE-0322"},
+        {"transaction_id": "BNK-013", "date": "2026-04-05", "amount": 29000.0, "direction": "DEBIT", "narration": "NEFT/SUPP101/Hindustan Unilever Distributor", "counterparty": "Hindustan Unilever Distributor", "mode": "BANK_TRANSFER", "status": "SUCCESS", "reference": "INV-HUL-104"},
+        {"transaction_id": "BNK-014", "date": "2026-04-18", "amount": 51000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/QR-MERCH-8832/Paytm Payments", "counterparty": "Paytm Merchant QR", "mode": "UPI", "status": "SUCCESS", "reference": "UPI-SETTLE-0418"},
+        {"transaction_id": "BNK-015", "date": "2026-05-08", "amount": 33000.0, "direction": "DEBIT", "narration": "NEFT/SUPP101/Hindustan Unilever Distributor", "counterparty": "Hindustan Unilever Distributor", "mode": "BANK_TRANSFER", "status": "SUCCESS", "reference": "INV-HUL-105"},
+        {"transaction_id": "BNK-016", "date": "2026-05-20", "amount": 45000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/QR-MERCH-8832/Paytm Payments", "counterparty": "Paytm Merchant QR", "mode": "UPI", "status": "SUCCESS", "reference": "UPI-SETTLE-0520"},
+        {"transaction_id": "BNK-017", "date": "2026-06-10", "amount": 26000.0, "direction": "CREDIT", "narration": "POS/SETTLE/BATCH-JUN10/MERCH4410", "counterparty": "PineLabs POS Settlement", "mode": "POS", "status": "SUCCESS", "reference": "POS-BATCH-0610"},
+        {"transaction_id": "BNK-018", "date": "2026-06-25", "amount": 49000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/QR-MERCH-8832/Paytm Payments", "counterparty": "Paytm Merchant QR", "mode": "UPI", "status": "SUCCESS", "reference": "UPI-SETTLE-0625"},
+        {"transaction_id": "BNK-019", "date": "2026-07-08", "amount": 35000.0, "direction": "DEBIT", "narration": "NEFT/SUPP101/Hindustan Unilever Distributor", "counterparty": "Hindustan Unilever Distributor", "mode": "BANK_TRANSFER", "status": "SUCCESS", "reference": "INV-HUL-106"},
+        {"transaction_id": "BNK-020", "date": "2026-07-22", "amount": 54000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/QR-MERCH-8832/Paytm Payments", "counterparty": "Paytm Merchant QR", "mode": "UPI", "status": "SUCCESS", "reference": "UPI-SETTLE-0722"}
+      ]
+    },
+    {
+      "source_id": "UPI-PAYTM-01",
+      "source_type": "QR",
+      "metadata": {
+        "vpa": "sharmakirana@paytm",
+        "merchant_id": "MERCH-8832",
+        "qr_type": "STATIC_MERCHANT_QR"
+      },
+      "records": [
+        {"transaction_id": "UPI-001", "date": "2026-01-14", "amount": 850.0, "direction": "CREDIT", "narration": "UPI/Customer Groceries/Amit", "counterparty": "amit.gupta@okaxis", "mode": "UPI", "is_qr": true},
+        {"transaction_id": "UPI-002", "date": "2026-01-14", "amount": 1200.0, "direction": "CREDIT", "narration": "UPI/Ration items/Pooja", "counterparty": "pooja.sharma@paytm", "mode": "UPI", "is_qr": true},
+        {"transaction_id": "UPI-003", "date": "2026-02-17", "amount": 2400.0, "direction": "CREDIT", "narration": "UPI/Monthly provisions/Ramesh", "counterparty": "ramesh.kumar@okhdfcbank", "mode": "UPI", "is_qr": true},
+        {"transaction_id": "UPI-004", "date": "2026-03-21", "amount": 1850.0, "direction": "CREDIT", "narration": "UPI/Grocery Bill/Deepak", "counterparty": "deepak@upi", "mode": "UPI", "is_qr": true},
+        {"transaction_id": "UPI-005", "date": "2026-04-17", "amount": 3100.0, "direction": "CREDIT", "narration": "UPI/Oil & Grains/Vikas", "counterparty": "vikas.patel@icici", "mode": "UPI", "is_qr": true},
+        {"transaction_id": "UPI-006", "date": "2026-05-19", "amount": 1450.0, "direction": "CREDIT", "narration": "UPI/Daily Needs/Kiran", "counterparty": "kiran@oksbi", "mode": "UPI", "is_qr": true},
+        {"transaction_id": "UPI-007", "date": "2026-06-24", "amount": 2900.0, "direction": "CREDIT", "narration": "UPI/Bulk Spices/Anil", "counterparty": "anil.mehta@ybl", "mode": "UPI", "is_qr": true},
+        {"transaction_id": "UPI-008", "date": "2026-07-21", "amount": 2150.0, "direction": "CREDIT", "narration": "UPI/Kirana items/Sunil", "counterparty": "sunil.verma@paytm", "mode": "UPI", "is_qr": true}
+      ]
+    },
+    {
+      "source_id": "INV-SUPP-01",
+      "source_type": "INVOICE",
+      "metadata": {
+        "verified_vendor": "Hindustan Unilever Super Stockist"
+      },
+      "records": [
+        {"transaction_id": "INV-HUL-101", "date": "2026-01-04", "amount": 25000.0, "direction": "DEBIT", "narration": "Tax Invoice for Personal Care & Soaps", "counterparty": "Hindustan Unilever Distributor", "reference": "INV-HUL-101"},
+        {"transaction_id": "INV-HUL-102", "date": "2026-02-04", "amount": 28000.0, "direction": "DEBIT", "narration": "Tax Invoice for Detergents & Tea", "counterparty": "Hindustan Unilever Distributor", "reference": "INV-HUL-102"},
+        {"transaction_id": "INV-HUL-103", "date": "2026-03-04", "amount": 31000.0, "direction": "DEBIT", "narration": "Tax Invoice for Atta & Oil Packs", "counterparty": "Hindustan Unilever Distributor", "reference": "INV-HUL-103"},
+        {"transaction_id": "INV-HUL-104", "date": "2026-04-04", "amount": 29000.0, "direction": "DEBIT", "narration": "Tax Invoice for Monthly Replenishment", "counterparty": "Hindustan Unilever Distributor", "reference": "INV-HUL-104"},
+        {"transaction_id": "INV-HUL-105", "date": "2026-05-07", "amount": 33000.0, "direction": "DEBIT", "narration": "Tax Invoice for FMCG Inventory", "counterparty": "Hindustan Unilever Distributor", "reference": "INV-HUL-105"},
+        {"transaction_id": "INV-HUL-106", "date": "2026-07-07", "amount": 35000.0, "direction": "DEBIT", "narration": "Tax Invoice for Monsoon Stocking", "counterparty": "Hindustan Unilever Distributor", "reference": "INV-HUL-106"}
+      ]
+    },
+    {
+      "source_id": "LEDGER-KHATA-01",
+      "source_type": "BUSINESS_LEDGER",
+      "metadata": {
+        "app_name": "Khatabook Digital"
+      },
+      "records": [
+        {"transaction_id": "LED-001", "date": "2026-01-14", "amount": 850.0, "direction": "CREDIT", "narration": "Sale to Amit Gupta", "counterparty": "Amit Gupta", "category": "BUSINESS_INCOME"},
+        {"transaction_id": "LED-002", "date": "2026-02-17", "amount": 2400.0, "direction": "CREDIT", "narration": "Monthly bill clear Ramesh", "counterparty": "Ramesh Kumar", "category": "BUSINESS_INCOME"},
+        {"transaction_id": "LED-003", "date": "2026-03-21", "amount": 1850.0, "direction": "CREDIT", "narration": "Grocery provisions Deepak", "counterparty": "Deepak", "category": "BUSINESS_INCOME"},
+        {"transaction_id": "LED-004", "date": "2026-06-24", "amount": 2900.0, "direction": "CREDIT", "narration": "Bulk order spices Anil", "counterparty": "Anil Mehta", "category": "BUSINESS_INCOME"}
+      ]
+    }
+  ]
+}

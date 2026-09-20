@@ -1,0 +1,73 @@
+{
+  "baseline": "DummyRegressor(mean)",
+  "borrower_count": 600,
+  "dataset_sha256": "c42883ee914614e2db20641e62d238159ba7cde2e6f179bca3fc9cae0319eafb",
+  "feature_count": 32,
+  "feature_list": [
+    "mean_monthly_inflow",
+    "median_monthly_inflow",
+    "p25_monthly_inflow",
+    "p10_monthly_inflow",
+    "inflow_cv",
+    "mean_monthly_business_outflow",
+    "median_monthly_business_outflow",
+    "outflow_cv",
+    "mean_monthly_net",
+    "median_monthly_net",
+    "net_cashflow_std",
+    "negative_net_month_rate",
+    "positive_month_rate",
+    "zero_income_month_rate",
+    "inflow_trend",
+    "outflow_trend",
+    "net_cashflow_trend",
+    "recent_3m_mean_inflow",
+    "recent_3m_mean_net",
+    "recent_3m_volatility",
+    "recent_vs_previous_inflow",
+    "recent_vs_previous_net",
+    "seasonality_strength",
+    "peak_to_trough_ratio",
+    "seasonal_recovery_rate",
+    "top_customer_share",
+    "customer_count",
+    "verified_transaction_share",
+    "unclassified_transaction_share",
+    "anomalous_transaction_share",
+    "source_count",
+    "self_declared_income_share"
+  ],
+  "feature_version": "1.0.0",
+  "metrics": {
+    "baseline_test": {
+      "mae": 18.235178137566137,
+      "r2": -0.0018030375241049335,
+      "rmse": 21.793629141981256
+    },
+    "baseline_validation": {
+      "mae": 19.110854973544974,
+      "r2": -2.2862544368784654e-07,
+      "rmse": 21.792753350723995
+    },
+    "primary_test": {
+      "mae": 9.242590393231653,
+      "r2": 0.7063484671216462,
+      "rmse": 11.799253189209182
+    },
+    "primary_validation": {
+      "mae": 9.473749823776805,
+      "r2": 0.6691687464552926,
+      "rmse": 12.534739684520149
+    }
+  },
+  "model": "HistGradientBoostingRegressor",
+  "model_version": "1.0.0",
+  "random_seed": 42,
+  "split_strategy": "borrower-disjoint 70/15/15; every row uses a chronological 24-month observation window followed by a three-month target window",
+  "synthetic_training_data": true,
+  "target_definition": "0.35 future surplus margin + 0.25 future inflow stability + 0.20 positive-net month rate + 0.20 future net trend; clamped 0-100",
+  "test_row_count": 90,
+  "training_row_count": 420,
+  "training_timestamp": "2026-09-19T21:23:29.045319+00:00",
+  "validation_row_count": 90
+}

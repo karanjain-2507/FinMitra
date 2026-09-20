@@ -1,0 +1,62 @@
+{
+  "borrower_id": "BORR-MESSY-004",
+  "business_name": "Gupta Electronics & Smartphone Repair",
+  "sources": [
+    {
+      "source_id": "BANK-ICICI-01",
+      "source_type": "BANK_STATEMENT",
+      "metadata": {
+        "account_type": "CURRENT",
+        "bank_name": "ICICI Bank"
+      },
+      "records": [
+        {"transaction_id": "BNK-MESSY-001", "date": "2026-01-10", "amount": 15000.0, "direction": "CREDIT", "narration": "POS/SETTLE/PineLabs Daily Batch", "counterparty": "PineLabs POS Settlement", "mode": "POS", "reference": "POS-BATCH-881"},
+        {"transaction_id": "BNK-MESSY-002", "date": "2026-01-15", "amount": 18500.0, "direction": "CREDIT", "narration": "UPI/SETTLE/PhonePe Merchant Settlement", "counterparty": "PhonePe Merchant", "mode": "UPI", "reference": "UPI-SETTLE-551"},
+        {"transaction_id": "BNK-MESSY-002", "date": "2026-01-15", "amount": 18500.0, "direction": "CREDIT", "narration": "UPI/SETTLE/PhonePe Merchant Settlement", "counterparty": "PhonePe Merchant", "mode": "UPI", "reference": "UPI-SETTLE-551"},
+        {"transaction_id": "BNK-MESSY-003", "date": "2026-01-20", "amount": 35000.0, "direction": "CREDIT", "narration": "CASH DEPOSIT AT BRANCH COUNTER INDORE", "counterparty": "SELF CASH DEPOSIT", "mode": "CASH"},
+        {"transaction_id": "BNK-MESSY-004", "date": "2026-01-25", "amount": 40000.0, "direction": "CREDIT", "narration": "SELF TRANSFER FROM SAVINGS TO CURRENT ACC", "counterparty": "Gupta Personal Savings", "mode": "BANK_TRANSFER"},
+        {"transaction_id": "BNK-MESSY-005", "date": "2026-02-02", "amount": 1250000.0, "direction": "CREDIT", "narration": "RTGS/LARGE-PROPERTY-ADVANCE/Sharma Builder", "counterparty": "Sharma Builder Land", "mode": "BANK_TRANSFER"},
+        {"transaction_id": "BNK-MESSY-006", "date": "2026-02-10", "amount": 50000.0, "direction": "CREDIT", "narration": "NEFT/INV-CONFLICT-REF999/Tech Component Buyer", "counterparty": "Tech Component Buyer", "mode": "BANK_TRANSFER", "reference": "CONF-REF-999"},
+        {"transaction_id": "BNK-MESSY-007", "date": "2026-02-18", "amount": 2500.0, "direction": "CREDIT", "narration": "UPI/P2P transfer from unknown friend", "counterparty": "random.user8821@upi", "mode": "UPI"},
+        {"transaction_id": "BNK-MESSY-008", "date": "2026-03-05", "amount": 22000.0, "direction": "DEBIT", "narration": "NEFT/PARTS-WHOLESALE/Display Screens Ltd", "counterparty": "Display Screens Wholesale", "mode": "BANK_TRANSFER", "reference": "INV-DISP-401"},
+        {"transaction_id": "BNK-MESSY-009", "date": "2026-03-20", "amount": 8500.0, "direction": "DEBIT", "narration": "INFORMAL VYAZ/Local Committee Installment", "counterparty": "Local Committee Lender", "mode": "BANK_TRANSFER"},
+        {"transaction_id": "BNK-MESSY-010", "date": "2026-04-10", "amount": 19000.0, "direction": "CREDIT", "narration": "POS/SETTLE/PineLabs Daily Batch", "counterparty": "PineLabs POS Settlement", "mode": "POS", "reference": "POS-BATCH-882"},
+        {"transaction_id": "BNK-MESSY-011", "date": "2026-04-22", "amount": 28000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/PhonePe Merchant Settlement", "counterparty": "PhonePe Merchant", "mode": "UPI", "reference": "UPI-SETTLE-552"},
+        {"transaction_id": "BNK-MESSY-012", "date": "2026-05-15", "amount": 31000.0, "direction": "CREDIT", "narration": "POS/SETTLE/PineLabs Daily Batch", "counterparty": "PineLabs POS Settlement", "mode": "POS", "reference": "POS-BATCH-883"},
+        {"transaction_id": "BNK-MESSY-013", "date": "2026-06-10", "amount": 24000.0, "direction": "CREDIT", "narration": "UPI/SETTLE/PhonePe Merchant Settlement", "counterparty": "PhonePe Merchant", "mode": "UPI", "reference": "UPI-SETTLE-553"}
+      ]
+    },
+    {
+      "source_id": "UPI-PHONEPE-01",
+      "source_type": "UPI",
+      "metadata": {
+        "merchant_id": "PHONEPE-MERCH-991"
+      },
+      "records": [
+        {"transaction_id": "UPI-MESSY-551", "date": "2026-01-15", "amount": 18500.0, "direction": "CREDIT", "narration": "UPI QR Customer Payment Consolidated", "counterparty": "PhonePe QR Merchant", "mode": "UPI", "reference": "UPI-SETTLE-551"},
+        {"transaction_id": "UPI-MESSY-552", "date": "2026-04-22", "amount": 28000.0, "direction": "CREDIT", "narration": "UPI QR Customer Payment Consolidated", "counterparty": "PhonePe QR Merchant", "mode": "UPI", "reference": "UPI-SETTLE-552"}
+      ]
+    },
+    {
+      "source_id": "INVOICE-PORTAL-01",
+      "source_type": "INVOICE",
+      "metadata": {
+        "system": "ClearTax Invoicing"
+      },
+      "records": [
+        {"transaction_id": "INV-CONFLICT-01", "date": "2026-02-10", "amount": 5000.0, "direction": "CREDIT", "narration": "Invoice for Spare Motherboard Repair", "counterparty": "Tech Component Buyer", "reference": "CONF-REF-999"},
+        {"transaction_id": "INV-DISP-401", "date": "2026-03-04", "amount": 22000.0, "direction": "DEBIT", "narration": "Supplier Tax Invoice Display Panels", "counterparty": "Display Screens Wholesale", "reference": "INV-DISP-401"}
+      ]
+    },
+    {
+      "source_id": "SELF-DECL-01",
+      "source_type": "SELF_DECLARATION",
+      "metadata": {
+        "declaration_type": "UNVERIFIED_CASH_SALES"
+      },
+      "records": [
+        {"transaction_id": "DECL-CASH-01", "date": "2026-03-31", "amount": 80000.0, "direction": "CREDIT", "narration": "Self declared unverified cash sales for Q1", "counterparty": "Self Declared Cash Sales", "category": "SELF_DECLARED_CASH_INCOME"}
+      ]
+    }
+  ]
+}

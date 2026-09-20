@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finmitra-cashflow-engine"
+version = "1.0.0"
+description = "Standalone FinMitra Person 2 cash-flow intelligence engine"
+requires-python = ">=3.11"
+dependencies = [
+  "joblib>=1.3",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+py-modules = ["config", "enums", "schemas"]
+packages = ["features", "model"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

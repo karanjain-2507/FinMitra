@@ -1,0 +1,13 @@
+feature,standardized_log_odds_coefficient
+six_month_inflow_trend,0.20595135657998834
+median_monthly_business_inflow_paise,0.19102151911414883
+expense_volatility,0.1652753542031158
+negative_cashflow_month_ratio,0.06381299075113218
+seasonality_adjusted_stability,0.06291795867815231
+repeat_customer_ratio,-0.04406917073219597
+balance_buffer_days,-0.04515550389818131
+longest_inflow_gap_days,-0.06896401619634226
+median_active_earning_days,-0.07204875293661303
+inflow_volatility,-0.09062110888420105
+income_source_concentration,-0.13835861376830086
+median_operating_surplus_paise,-0.2831733813313111

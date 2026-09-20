@@ -1,0 +1,20 @@
+{
+  "_scenario": "unpaid_loan",
+  "_description": "Borrower 4 — Strong income but zero repayment on overdue informal supplier loan",
+  "borrower_id": "B004",
+  "scenario": "unpaid_loan",
+  "capacity_input": {
+    "conservative_monthly_inflow": 35000,
+    "essential_household_expense": 12000,
+    "essential_business_expense": 8000,
+    "existing_formal_emis": 0,
+    "existing_informal_installments": 3000,
+    "income_volatility": 0.10,
+    "lowest_recent_monthly_inflow": 28000,
+    "available_balance_buffer": 8000,
+    "outstanding_delinquent_amount": 25000,
+    "requested_loan_amount": 50000,
+    "annual_interest_rate": 0.14,
+    "tenure_months": 12
+  }
+}

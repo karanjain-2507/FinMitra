@@ -1,0 +1,20 @@
+{
+  "_scenario": "strong_borrower",
+  "_description": "Borrower 1 — Stable kirana store owner with UPI income and one completed supplier loan",
+  "borrower_id": "B001",
+  "scenario": "strong_borrower",
+  "capacity_input": {
+    "conservative_monthly_inflow": 28000,
+    "essential_household_expense": 10000,
+    "essential_business_expense": 7500,
+    "existing_formal_emis": 1500,
+    "existing_informal_installments": 1000,
+    "income_volatility": 0.12,
+    "lowest_recent_monthly_inflow": 23000,
+    "available_balance_buffer": 15000,
+    "outstanding_delinquent_amount": 0,
+    "requested_loan_amount": 40000,
+    "annual_interest_rate": 0.14,
+    "tenure_months": 12
+  }
+}

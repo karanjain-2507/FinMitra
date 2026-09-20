@@ -1,0 +1,20 @@
+{
+  "borrower_id": "B-UNPAID",
+  "evaluation_date": "2026-04-15",
+  "informal_loans": [
+    {
+      "loan_id": "L-UNPAID",
+      "lender_id": "LENDER-09",
+      "issue_date": "2025-12-01",
+      "principal_amount": 30000,
+      "installment_amount": 5000,
+      "installment_frequency": "MONTHLY",
+      "number_of_installments": 6,
+      "first_due_date": "2026-01-01",
+      "declared_status": "OVERDUE",
+      "relationship_type": "INFORMAL"
+    }
+  ],
+  "repayment_claims": [],
+  "transactions": []
+}

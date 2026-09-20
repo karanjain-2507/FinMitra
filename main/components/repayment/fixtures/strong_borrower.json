@@ -1,0 +1,148 @@
+{
+  "borrower_id": "B-STRONG",
+  "evaluation_date": "2026-07-01",
+  "informal_loans": [
+    {
+      "loan_id": "L001",
+      "lender_id": "SUPPLIER-01",
+      "issue_date": "2025-12-15",
+      "principal_amount": 30000,
+      "installment_amount": 5000,
+      "installment_frequency": "MONTHLY",
+      "number_of_installments": 6,
+      "first_due_date": "2026-01-01",
+      "declared_status": "COMPLETED",
+      "relationship_type": "SUPPLIER"
+    }
+  ],
+  "repayment_claims": [
+    {
+      "repayment_id": "R001",
+      "loan_id": "L001",
+      "date": "2026-01-01",
+      "amount": 5000,
+      "transaction_id": "T001",
+      "source": "BANK_STATEMENT",
+      "verified": true,
+      "confidence": 0.95
+    },
+    {
+      "repayment_id": "R002",
+      "loan_id": "L001",
+      "date": "2026-02-01",
+      "amount": 5000,
+      "transaction_id": "T002",
+      "source": "BANK_STATEMENT",
+      "verified": true,
+      "confidence": 0.95
+    },
+    {
+      "repayment_id": "R003",
+      "loan_id": "L001",
+      "date": "2026-03-01",
+      "amount": 5000,
+      "transaction_id": "T003",
+      "source": "BANK_STATEMENT",
+      "verified": true,
+      "confidence": 0.95
+    },
+    {
+      "repayment_id": "R004",
+      "loan_id": "L001",
+      "date": "2026-04-01",
+      "amount": 5000,
+      "transaction_id": "T004",
+      "source": "BANK_STATEMENT",
+      "verified": true,
+      "confidence": 0.95
+    },
+    {
+      "repayment_id": "R005",
+      "loan_id": "L001",
+      "date": "2026-05-01",
+      "amount": 5000,
+      "transaction_id": "T005",
+      "source": "BANK_STATEMENT",
+      "verified": true,
+      "confidence": 0.95
+    },
+    {
+      "repayment_id": "R006",
+      "loan_id": "L001",
+      "date": "2026-06-01",
+      "amount": 5000,
+      "transaction_id": "T006",
+      "source": "BANK_STATEMENT",
+      "verified": true,
+      "confidence": 0.95
+    }
+  ],
+  "transactions": [
+    {
+      "transaction_id": "T001",
+      "date": "2026-01-01",
+      "amount": 5000,
+      "direction": "DEBIT",
+      "category": "LOAN_REPAYMENT",
+      "counterparty_id": "SUPPLIER-01",
+      "description": "EMI 1",
+      "source": "BANK_STATEMENT",
+      "verified": true
+    },
+    {
+      "transaction_id": "T002",
+      "date": "2026-02-01",
+      "amount": 5000,
+      "direction": "DEBIT",
+      "category": "LOAN_REPAYMENT",
+      "counterparty_id": "SUPPLIER-01",
+      "description": "EMI 2",
+      "source": "BANK_STATEMENT",
+      "verified": true
+    },
+    {
+      "transaction_id": "T003",
+      "date": "2026-03-01",
+      "amount": 5000,
+      "direction": "DEBIT",
+      "category": "LOAN_REPAYMENT",
+      "counterparty_id": "SUPPLIER-01",
+      "description": "EMI 3",
+      "source": "BANK_STATEMENT",
+      "verified": true
+    },
+    {
+      "transaction_id": "T004",
+      "date": "2026-04-01",
+      "amount": 5000,
+      "direction": "DEBIT",
+      "category": "LOAN_REPAYMENT",
+      "counterparty_id": "SUPPLIER-01",
+      "description": "EMI 4",
+      "source": "BANK_STATEMENT",
+      "verified": true
+    },
+    {
+      "transaction_id": "T005",
+      "date": "2026-05-01",
+      "amount": 5000,
+      "direction": "DEBIT",
+      "category": "LOAN_REPAYMENT",
+      "counterparty_id": "SUPPLIER-01",
+      "description": "EMI 5",
+      "source": "BANK_STATEMENT",
+      "verified": true
+    },
+    {
+      "transaction_id": "T006",
+      "date": "2026-06-01",
+      "amount": 5000,
+      "direction": "DEBIT",
+      "category": "LOAN_REPAYMENT",
+      "counterparty_id": "SUPPLIER-01",
+      "description": "EMI 6",
+      "source": "BANK_STATEMENT",
+      "verified": true
+    }
+  ]
+}

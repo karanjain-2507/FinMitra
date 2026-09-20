@@ -1,0 +1,98 @@
+{
+  "model_version": "logistic-baseline-1.0.0",
+  "model": "LogisticRegression",
+  "purpose": "Baseline probability of cash-flow stress in the next 90 days",
+  "target": "cashflow_stress_90d",
+  "probability_output": "predict_proba(X)[:, 1]",
+  "decision_threshold": 0.5,
+  "random_seed": 42,
+  "synthetic_training_data": true,
+  "feature_count": 12,
+  "feature_names": [
+    "median_monthly_business_inflow_paise",
+    "inflow_volatility",
+    "six_month_inflow_trend",
+    "longest_inflow_gap_days",
+    "median_active_earning_days",
+    "income_source_concentration",
+    "repeat_customer_ratio",
+    "seasonality_adjusted_stability",
+    "median_operating_surplus_paise",
+    "negative_cashflow_month_ratio",
+    "expense_volatility",
+    "balance_buffer_days"
+  ],
+  "split_strategy": "Preassigned borrower-level train/validation/test split",
+  "training_timestamp": "2026-09-19T22:54:44.235780+00:00",
+  "dataset_sha256": "a2521a31feacb97e6564582a279f7a20d34c0040f579bf231996db507a2b126f",
+  "metrics": {
+    "train": {
+      "rows": 350,
+      "stress_rate": 0.334286,
+      "roc_auc": 0.605774,
+      "average_precision": 0.424771,
+      "log_loss": 0.62152,
+      "brier_score": 0.215812,
+      "accuracy_at_0_5": 0.665714,
+      "precision_at_0_5": 0.5,
+      "recall_at_0_5": 0.034188,
+      "f1_at_0_5": 0.064,
+      "confusion_matrix_at_0_5": [
+        [
+          229,
+          4
+        ],
+        [
+          113,
+          4
+        ]
+      ]
+    },
+    "validation": {
+      "rows": 75,
+      "stress_rate": 0.306667,
+      "roc_auc": 0.510033,
+      "average_precision": 0.337443,
+      "log_loss": 0.633608,
+      "brier_score": 0.21939,
+      "accuracy_at_0_5": 0.68,
+      "precision_at_0_5": 0.0,
+      "recall_at_0_5": 0.0,
+      "f1_at_0_5": 0.0,
+      "confusion_matrix_at_0_5": [
+        [
+          51,
+          1
+        ],
+        [
+          23,
+          0
+        ]
+      ]
+    },
+    "test": {
+      "rows": 75,
+      "stress_rate": 0.413333,
+      "roc_auc": 0.373167,
+      "average_precision": 0.353154,
+      "log_loss": 0.767249,
+      "brier_score": 0.277894,
+      "accuracy_at_0_5": 0.573333,
+      "precision_at_0_5": 0.0,
+      "recall_at_0_5": 0.0,
+      "f1_at_0_5": 0.0,
+      "confusion_matrix_at_0_5": [
+        [
+          43,
+          1
+        ],
+        [
+          31,
+          0
+        ]
+      ]
+    }
+  },
+  "artifact": "cashflow_stress_logistic_baseline_v1.joblib",
+  "coefficients": "cashflow_stress_logistic_coefficients_v1.csv"
+}

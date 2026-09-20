@@ -1,0 +1,43 @@
+date,amount,direction,category,narration,counterparty,mode
+2026-03-02,4250,CREDIT,BUSINESS_INCOME,Customer QR sales batch,cust_march_01@upi,UPI
+2026-03-05,6800,CREDIT,POS_SETTLEMENT,Card terminal settlement,pos_settlement@bank,POS
+2026-03-09,3150,DEBIT,BUSINESS_EXPENSE,Wholesale grocery purchase,shree_distributors@bank,BANK_TRANSFER
+2026-03-14,4725,CREDIT,BUSINESS_INCOME,Weekend UPI collections,cust_march_02@upi,UPI
+2026-03-18,2400,DEBIT,HOUSEHOLD_EXPENSE,Household provisions,self,CARD
+2026-03-23,1900,DEBIT,BUSINESS_EXPENSE,Electricity and internet,state_utility@bank,DIRECT_DEBIT
+2026-03-28,5350,CREDIT,BUSINESS_INCOME,Month end customer receipts,cust_march_03@upi,UPI
+2026-04-02,4600,CREDIT,BUSINESS_INCOME,Customer QR sales batch,cust_april_01@upi,UPI
+2026-04-06,7200,CREDIT,POS_SETTLEMENT,Card terminal settlement,pos_settlement@bank,POS
+2026-04-10,3400,DEBIT,BUSINESS_EXPENSE,FMCG inventory restock,shree_distributors@bank,BANK_TRANSFER
+2026-04-15,5100,CREDIT,BUSINESS_INCOME,Weekly UPI collections,cust_april_02@upi,UPI
+2026-04-19,2500,DEBIT,HOUSEHOLD_EXPENSE,Household and school expense,self,UPI
+2026-04-24,2100,DEBIT,BUSINESS_EXPENSE,Shop rent contribution,landlord@bank,BANK_TRANSFER
+2026-04-29,5700,CREDIT,BUSINESS_INCOME,Month end customer receipts,cust_april_03@upi,UPI
+2026-05-03,4950,CREDIT,BUSINESS_INCOME,Customer QR sales batch,cust_may_01@upi,UPI
+2026-05-07,7550,CREDIT,POS_SETTLEMENT,Card terminal settlement,pos_settlement@bank,POS
+2026-05-11,3650,DEBIT,BUSINESS_EXPENSE,Wholesale stock purchase,shree_distributors@bank,BANK_TRANSFER
+2026-05-16,5450,CREDIT,BUSINESS_INCOME,Weekly UPI collections,cust_may_02@upi,UPI
+2026-05-20,2600,DEBIT,HOUSEHOLD_EXPENSE,Household provisions,self,CARD
+2026-05-25,2050,DEBIT,BUSINESS_EXPENSE,Utilities and mobile recharge,state_utility@bank,DIRECT_DEBIT
+2026-05-30,6150,CREDIT,BUSINESS_INCOME,Month end customer receipts,cust_may_03@upi,UPI
+2026-06-02,5200,CREDIT,BUSINESS_INCOME,Customer QR sales batch,cust_june_01@upi,UPI
+2026-06-06,7900,CREDIT,POS_SETTLEMENT,Card terminal settlement,pos_settlement@bank,POS
+2026-06-10,3900,DEBIT,BUSINESS_EXPENSE,Inventory restock,shree_distributors@bank,BANK_TRANSFER
+2026-06-15,5800,CREDIT,BUSINESS_INCOME,Weekly UPI collections,cust_june_02@upi,UPI
+2026-06-19,2750,DEBIT,HOUSEHOLD_EXPENSE,Household and medical expense,self,UPI
+2026-06-24,2200,DEBIT,BUSINESS_EXPENSE,Shop maintenance and utilities,local_services@upi,UPI
+2026-06-29,6500,CREDIT,BUSINESS_INCOME,Month end customer receipts,cust_june_03@upi,UPI
+2026-07-03,5550,CREDIT,BUSINESS_INCOME,Customer QR sales batch,cust_july_01@upi,UPI
+2026-07-07,8350,CREDIT,POS_SETTLEMENT,Card terminal settlement,pos_settlement@bank,POS
+2026-07-11,4150,DEBIT,BUSINESS_EXPENSE,Wholesale stock purchase,shree_distributors@bank,BANK_TRANSFER
+2026-07-16,6200,CREDIT,BUSINESS_INCOME,Weekly UPI collections,cust_july_02@upi,UPI
+2026-07-20,2850,DEBIT,HOUSEHOLD_EXPENSE,Household provisions,self,CARD
+2026-07-25,2300,DEBIT,BUSINESS_EXPENSE,Shop rent contribution,landlord@bank,BANK_TRANSFER
+2026-07-30,6950,CREDIT,BUSINESS_INCOME,Month end customer receipts,cust_july_03@upi,UPI
+2026-08-02,5900,CREDIT,BUSINESS_INCOME,Customer QR sales batch,cust_august_01@upi,UPI
+2026-08-06,8800,CREDIT,POS_SETTLEMENT,Card terminal settlement,pos_settlement@bank,POS
+2026-08-10,4400,DEBIT,BUSINESS_EXPENSE,Festival inventory purchase,shree_distributors@bank,BANK_TRANSFER
+2026-08-15,6650,CREDIT,BUSINESS_INCOME,Holiday UPI collections,cust_august_02@upi,UPI
+2026-08-19,3000,DEBIT,HOUSEHOLD_EXPENSE,Household and school expense,self,UPI
+2026-08-24,2450,DEBIT,BUSINESS_EXPENSE,Utilities and store supplies,state_utility@bank,DIRECT_DEBIT
+2026-08-29,7400,CREDIT,BUSINESS_INCOME,Month end customer receipts,cust_august_03@upi,UPI

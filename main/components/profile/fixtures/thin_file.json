@@ -1,0 +1,20 @@
+{
+  "_scenario": "thin_file",
+  "_description": "Borrower 3 — Thin-file street vendor with only two months of data",
+  "borrower_id": "B003",
+  "scenario": "thin_file",
+  "capacity_input": {
+    "conservative_monthly_inflow": 14000,
+    "essential_household_expense": 7000,
+    "essential_business_expense": 3000,
+    "existing_formal_emis": 0,
+    "existing_informal_installments": 0,
+    "income_volatility": 0.22,
+    "lowest_recent_monthly_inflow": 10000,
+    "available_balance_buffer": 3000,
+    "outstanding_delinquent_amount": 0,
+    "requested_loan_amount": 15000,
+    "annual_interest_rate": 0.14,
+    "tenure_months": 12
+  }
+}

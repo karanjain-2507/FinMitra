@@ -1,0 +1,557 @@
+{
+  "borrower_id": "FIX-THIN_FILE",
+  "as_of_date": "2026-08-31",
+  "transactions": [
+    {
+      "transaction_id": "FIX-THIN_FILE-T00001",
+      "date": "2026-07-09",
+      "amount_paise": 367770,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CASH",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00002",
+      "date": "2026-07-12",
+      "amount_paise": 461734,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CARD",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00003",
+      "date": "2026-07-21",
+      "amount_paise": 320526,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00004",
+      "date": "2026-07-07",
+      "amount_paise": 869474,
+      "direction": "CREDIT",
+      "category": "POS_SETTLEMENT",
+      "category_confidence": 0.96,
+      "mode": "CARD",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C00",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00005",
+      "date": "2026-07-12",
+      "amount_paise": 369657,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CARD",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00006",
+      "date": "2026-07-11",
+      "amount_paise": 56004,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CASH",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00007",
+      "date": "2026-07-07",
+      "amount_paise": 169018,
+      "direction": "CREDIT",
+      "category": "POS_SETTLEMENT",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C01",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00008",
+      "date": "2026-07-14",
+      "amount_paise": 103417,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CARD",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00009",
+      "date": "2026-07-04",
+      "amount_paise": 322253,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00010",
+      "date": "2026-07-20",
+      "amount_paise": 270893,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CASH",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00011",
+      "date": "2026-07-16",
+      "amount_paise": 418414,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00012",
+      "date": "2026-07-14",
+      "amount_paise": 28269,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00013",
+      "date": "2026-07-16",
+      "amount_paise": 321002,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CARD",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00014",
+      "date": "2026-07-11",
+      "amount_paise": 1458217,
+      "direction": "DEBIT",
+      "category": "INVENTORY",
+      "category_confidence": 0.96,
+      "mode": "CARD",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-SUP4",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00015",
+      "date": "2026-07-08",
+      "amount_paise": 206282,
+      "direction": "DEBIT",
+      "category": "INVENTORY",
+      "category_confidence": 0.96,
+      "mode": "BANK_TRANSFER",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-SUP4",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00016",
+      "date": "2026-07-23",
+      "amount_paise": 527865,
+      "direction": "DEBIT",
+      "category": "INVENTORY",
+      "category_confidence": 0.96,
+      "mode": "CASH",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-SUP5",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00017",
+      "date": "2026-07-01",
+      "amount_paise": 1214223,
+      "direction": "DEBIT",
+      "category": "INVENTORY",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-SUP5",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00018",
+      "date": "2026-08-14",
+      "amount_paise": 231809,
+      "direction": "CREDIT",
+      "category": "POS_SETTLEMENT",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00019",
+      "date": "2026-08-12",
+      "amount_paise": 1091247,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CASH",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00020",
+      "date": "2026-08-09",
+      "amount_paise": 458573,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CASH",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00021",
+      "date": "2026-08-05",
+      "amount_paise": 831258,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "BANK_TRANSFER",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00022",
+      "date": "2026-08-22",
+      "amount_paise": 878870,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "BANK_TRANSFER",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00023",
+      "date": "2026-08-03",
+      "amount_paise": 367187,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "CASH",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C00",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00024",
+      "date": "2026-08-11",
+      "amount_paise": 993911,
+      "direction": "CREDIT",
+      "category": "BUSINESS_INCOME",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-C02",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00025",
+      "date": "2026-08-06",
+      "amount_paise": 1258543,
+      "direction": "DEBIT",
+      "category": "INVENTORY",
+      "category_confidence": 0.96,
+      "mode": "CARD",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-SUP2",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00026",
+      "date": "2026-08-15",
+      "amount_paise": 217364,
+      "direction": "DEBIT",
+      "category": "INVENTORY",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-SUP4",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00027",
+      "date": "2026-08-28",
+      "amount_paise": 575995,
+      "direction": "DEBIT",
+      "category": "INVENTORY",
+      "category_confidence": 0.96,
+      "mode": "CARD",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-SUP4",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00028",
+      "date": "2026-08-15",
+      "amount_paise": 494218,
+      "direction": "DEBIT",
+      "category": "SUPPLIER_PURCHASE",
+      "category_confidence": 0.96,
+      "mode": "UPI",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-SUP2",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    },
+    {
+      "transaction_id": "FIX-THIN_FILE-T00029",
+      "date": "2026-08-12",
+      "amount_paise": 248181,
+      "direction": "CREDIT",
+      "category": "SELF_TRANSFER",
+      "category_confidence": 0.96,
+      "mode": "CASH",
+      "source": "ACCOUNT_AGGREGATOR",
+      "verification": "SOURCE_CONNECTED",
+      "category_source": "SYNTHETIC_GROUND_TRUTH",
+      "counterparty": "FIX-THIN_FILE-OWN",
+      "status": "SUCCESS",
+      "model_eligible": true,
+      "anomaly_flag": false,
+      "provenance": {
+        "synthetic": true
+      }
+    }
+  ]
+}

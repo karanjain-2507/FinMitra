@@ -1,0 +1,20 @@
+{
+  "_scenario": "seasonal_business",
+  "_description": "Borrower 2 — Seasonal farmer with large harvest inflows and long gaps",
+  "borrower_id": "B002",
+  "scenario": "seasonal_business",
+  "capacity_input": {
+    "conservative_monthly_inflow": 18000,
+    "essential_household_expense": 8000,
+    "essential_business_expense": 4000,
+    "existing_formal_emis": 0,
+    "existing_informal_installments": 2000,
+    "income_volatility": 0.45,
+    "lowest_recent_monthly_inflow": 3500,
+    "available_balance_buffer": 20000,
+    "outstanding_delinquent_amount": 0,
+    "requested_loan_amount": 30000,
+    "annual_interest_rate": 0.12,
+    "tenure_months": 18
+  }
+}

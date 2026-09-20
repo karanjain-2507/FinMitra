@@ -1,0 +1,104 @@
+{
+  "model_version": "hist-gradient-boosting-1.0.0",
+  "model": "HistGradientBoostingClassifier",
+  "purpose": "Probability of cash-flow stress in the next 90 days",
+  "target": "cashflow_stress_90d",
+  "probability_output": "predict_proba(X)[:, 1]",
+  "random_seed": 42,
+  "synthetic_training_data": true,
+  "feature_count": 12,
+  "feature_names": [
+    "median_monthly_business_inflow_paise",
+    "inflow_volatility",
+    "six_month_inflow_trend",
+    "longest_inflow_gap_days",
+    "median_active_earning_days",
+    "income_source_concentration",
+    "repeat_customer_ratio",
+    "seasonality_adjusted_stability",
+    "median_operating_surplus_paise",
+    "negative_cashflow_month_ratio",
+    "expense_volatility",
+    "balance_buffer_days"
+  ],
+  "selection": "48 fixed candidates; highest validation ROC-AUC, then average precision, then lowest Brier score",
+  "best_parameters": {
+    "learning_rate": 0.03,
+    "max_iter": 200,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 10,
+    "l2_regularization": 1.0
+  },
+  "training_timestamp": "2026-09-19T22:58:06.160045+00:00",
+  "dataset_sha256": "a2521a31feacb97e6564582a279f7a20d34c0040f579bf231996db507a2b126f",
+  "metrics": {
+    "validation_during_selection": {
+      "rows": 75,
+      "stress_rate": 0.306667,
+      "roc_auc": 0.648829,
+      "average_precision": 0.407275,
+      "log_loss": 0.61607,
+      "brier_score": 0.213514,
+      "accuracy_at_0_5": 0.64,
+      "precision_at_0_5": 0.25,
+      "recall_at_0_5": 0.086957,
+      "f1_at_0_5": 0.129032,
+      "confusion_matrix_at_0_5": [
+        [
+          46,
+          6
+        ],
+        [
+          21,
+          2
+        ]
+      ]
+    },
+    "development_after_refit": {
+      "rows": 425,
+      "stress_rate": 0.329412,
+      "roc_auc": 0.972682,
+      "average_precision": 0.954237,
+      "log_loss": 0.379371,
+      "brier_score": 0.110549,
+      "accuracy_at_0_5": 0.877647,
+      "precision_at_0_5": 0.988889,
+      "recall_at_0_5": 0.635714,
+      "f1_at_0_5": 0.773913,
+      "confusion_matrix_at_0_5": [
+        [
+          284,
+          1
+        ],
+        [
+          51,
+          89
+        ]
+      ]
+    },
+    "test": {
+      "rows": 75,
+      "stress_rate": 0.413333,
+      "roc_auc": 0.497067,
+      "average_precision": 0.427168,
+      "log_loss": 0.759735,
+      "brier_score": 0.273742,
+      "accuracy_at_0_5": 0.573333,
+      "precision_at_0_5": 0.454545,
+      "recall_at_0_5": 0.16129,
+      "f1_at_0_5": 0.238095,
+      "confusion_matrix_at_0_5": [
+        [
+          38,
+          6
+        ],
+        [
+          26,
+          5
+        ]
+      ]
+    }
+  },
+  "artifact": "cashflow_stress_hist_gradient_boosting_v1.joblib",
+  "search_results": "cashflow_stress_hist_gradient_boosting_search_v1.csv"
+}
