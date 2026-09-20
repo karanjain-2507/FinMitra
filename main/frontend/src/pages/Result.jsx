@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useLocation, useNavigate, Link } from 'react-router-dom'
-import { ArrowLeft, Code, Copy, Check, RotateCcw, AlertTriangle, Layers, SlidersHorizontal, Sparkles } from 'lucide-react'
+import { ArrowLeft, Code, Copy, Check, AlertTriangle, Layers, SlidersHorizontal, Sparkles, Target, ShieldCheck } from 'lucide-react'
 import PageWrapper from '../components/layout/PageWrapper'
 import Card from '../components/ui/Card'
 import Button from '../components/ui/Button'
@@ -68,8 +68,26 @@ export default function Result() {
         </button>
 
         <div className="flex flex-wrap items-center gap-2">
+          <Button
+            variant="filled"
+            size="sm"
+            onClick={() => navigate('/what-if', { state: { ...location.state } })}
+          >
+            <Target size={14} />
+            <span>Plan a Goal</span>
+          </Button>
+
+          <Button
+            variant="tonal"
+            size="sm"
+            onClick={() => navigate('/passport', { state: { ...location.state } })}
+          >
+            <ShieldCheck size={14} />
+            <span>Create Passport</span>
+          </Button>
+
           <Link to="/assess">
-            <Button variant="filled" size="sm">
+            <Button variant="tonal" size="sm">
               <SlidersHorizontal size={14} />
               <span>Tweak Data &amp; Re-Assess</span>
             </Button>

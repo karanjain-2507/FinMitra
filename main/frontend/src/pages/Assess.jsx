@@ -58,6 +58,7 @@ export default function Assess() {
         state: {
           result,
           source: 'csv-upload',
+          file,
           filename: file.name,
           formContext: {
             borrowerId,

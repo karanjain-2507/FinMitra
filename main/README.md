@@ -64,3 +64,47 @@ cash-flow assessments.
 The first command runs the new end-to-end integration regressions. The second
 runs those plus all preserved component tests. See `REVIEW.md` for the
 integration fixes and the limitations that remain before any bank-facing use.
+
+## What If planning
+
+The What If module uses the completed four-engine assessment as an immutable
+baseline and works backward from either a loan-readiness goal or a savings
+target. It returns structured current-state, required-state, gap, path, safety,
+and assumption fields; localized presentation can consume the stable message
+keys without parsing English prose.
+
+The API exposes authoritative planning paths for each current input mode:
+
+```text
+POST /api/what-if
+POST /api/what-if/demo/{scenario}
+POST /api/what-if/csv
+POST /api/passports
+GET  /api/passports/{credential_id}
+POST /api/passports/verify
+```
+
+Assessment endpoints issue a short-lived opaque ID, and the planner resolves it
+to an immutable server-owned result rather than trusting client-edited financial
+inputs or derived fields. In the frontend, open a completed result and
+select **Plan a Goal**, or use the **What If** navigation item to see the
+assessment-first entry flow.
+
+## Financial Passport
+
+Completed assessments can issue a 30-day, selectively disclosed financial
+passport. The server derives every claim from its immutable assessment snapshot,
+uses a pseudonymous subject identifier, and signs the canonical credential with
+HMAC-SHA256. Credentials disclose categorical evidence, cash-flow, repayment,
+readiness, confidence, and stress-check claims—not borrower IDs, transaction
+history, balances, income, or exact Safe EMI values.
+
+An optional What If goal can be supplied during issuance. The server recomputes
+the plan and discloses only goal type, outcome, and deadline; goal title and amount
+remain private. The `/passport` and `/verifier` routes provide issuance and manual
+verification flows based on the attached Stitch concept. Camera QR decoding is not
+claimed or simulated in this web build.
+
+Set `FINMITRA_PASSPORT_SIGNING_KEY` in deployed environments. The development
+fallback key and credential registry are process-local, so production deployment
+requires managed key storage and a shared durable credential registry.
