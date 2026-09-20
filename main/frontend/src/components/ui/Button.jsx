@@ -8,6 +8,7 @@ export default function Button({
   disabled = false,
   className = '',
   loading = false,
+  ...rest
 }) {
   const base = `
     inline-flex items-center justify-center gap-2 font-jakarta font-semibold
@@ -35,6 +36,7 @@ export default function Button({
       disabled={disabled || loading}
       onClick={onClick}
       className={`${base} ${sizes[size]} ${variants[variant]} ${className}`}
+      {...rest}
     >
       {loading && (
         <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">

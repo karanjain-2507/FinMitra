@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useLocation, useNavigate, Link } from 'react-router-dom'
-import { ArrowLeft, Code, Copy, Check, RotateCcw, AlertTriangle, Layers, SlidersHorizontal, Sparkles } from 'lucide-react'
+import { ArrowLeft, Code, Copy, Check, RotateCcw, AlertTriangle, Layers, SlidersHorizontal, Sparkles, Shield } from 'lucide-react'
 import PageWrapper from '../components/layout/PageWrapper'
 import Card from '../components/ui/Card'
 import Button from '../components/ui/Button'
@@ -68,6 +68,18 @@ export default function Result() {
         </button>
 
         <div className="flex flex-wrap items-center gap-2">
+          <Link to="/share" state={{ result }}>
+            <Button variant="tonal" size="sm" aria-label="Share assessment summary securely">
+              <Shield size={14} aria-hidden="true" />
+              <span>Share securely</span>
+            </Button>
+          </Link>
+          <Link to="/import">
+            <Button variant="outlined" size="sm" aria-label="Open a secure share">
+              <span>Open a share</span>
+            </Button>
+          </Link>
+
           <Link to="/assess">
             <Button variant="filled" size="sm">
               <SlidersHorizontal size={14} />
